@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.cdf {
+  width: 375px;
+  min-height: 100vh;
+  margin: 0 auto;
+  background-image: url("../assets/images/bg.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding-bottom: 22px;
+}
+.cdf_text {
+  position: absolute;
+  width: 100%;
+  bottom: 18px;
+  left: 0;
+  padding: 0 22px 0 28px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.cdf_text__left span {
+  font-family: SourceHanSansCN-Normal;
+  font-size: 11px;
+  color: #666464;
+  letter-spacing: 0;
+}
+.cdf_text__left span:last-child {
+  font-family: SourceHanSansCN-Bold;
+  font-size: 11px;
+  color: #666666;
+  letter-spacing: 1px;
+  margin-left: 14px;
+  text-decoration: underline;
+  position: relative;
+}
+.cdf_text__left span:last-child::before {
+  content: "";
+  position: absolute;
+  left: -10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 6px;
+  height: 1px;
+  background: #d8d8d8;
+}
+.cdf_text__right {
+  width: 94px;
+  text-align: center;
+  line-height: 34px;
+  background: #a72d8c;
+  border-radius: 100px 0 0 100px;
+  font-family: SourceHanSansCN-Bold;
+  font-size: 18px;
+  color: #ffffff;
+  letter-spacing: 0.14px;
+}
+.cdf_floor {
+  margin-bottom: 20px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.cdf_floor1 {
+  height: 483px;
+  background-image: url("../assets/images/1.png");
+  margin-bottom: 12px;
+}
+.cdf_floor2 {
+  height: 317px;
+  background-image: url("../assets/images/2.png");
+}
+.cdf_floor3 {
+  height: 219px;
+  background-image: url("../assets/images/3.png");
+}
+.cdf_floor4 {
+  height: 204px;
+  background-image: url("../assets/images/4.png");
+}
+.cdf_floor5 {
+  height: 207px;
+  background-image: url("../assets/images/5.png");
+}
+.cdf_floor6 {
+  height: 51px;
+  background-image: url("../assets/images/6.png");
+  margin-bottom: 10px;
+}
+.cdf_floor7 {
+  height: 213px;
+  background-image: url("../assets/images/7.png");
+}
+.cdf_floor8 {
+  height: 301px;
+  background-image: url("../assets/images/8.png");
+}
+.cdf_text__self {
+  justify-content: flex-end;
+}
+.cdf_floor9 {
+  height: 59px;
+  background-image: url("../assets/images/9.png");
+}
+.cdf_floor10 {
+  height: 276px;
+  background-image: url("../assets/images/10.png");
+}
+.cdf_floor11 {
+  height: 318px;
+  background-image: url("../assets/images/11.png");
+}
+.cdf_floor12 {
+  height: 683px;
+  background-image: url("../assets/images/12.png");
+}
+.cdf_floor13 {
+  height: 435px;
+  background-image: url("../assets/images/13.png");
+}
+.cdf_floor14 {
+  width: 265px;
+  height: 32px;
+  position: absolute;
+  background-image: url("../assets/images/14.png");
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-size: 100% 100%;
+}
