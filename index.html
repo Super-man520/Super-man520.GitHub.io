@@ -70,6 +70,19 @@
       <div class="cdf_floor cdf_floor13"></div>
     </div>
     <script>
+      window.onload = function () {
+        getRem(375, 100);
+        // document.documentElement.style.visibility = "initial";
+      };
+      window.onresize = function () {
+        getRem(375, 100);
+      };
+      function getRem(pwidth, prem) {
+        var html = document.getElementsByTagName("html")[0];
+        var oWidth =
+          document.body.clientWidth || document.documentElement.clientWidth;
+        html.style.fontSize = (oWidth / pwidth) * prem + "px";
+      }
       const cdf_floors = document.querySelectorAll(".cdf_floor");
       cdf_floors.forEach((v) => {
         v.addEventListener("click", function () {
