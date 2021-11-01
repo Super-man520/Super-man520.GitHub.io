@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button class="btn">按钮--hello</button>
+    <script>
+      const btn = document.querySelector(".btn");
+      btn.addEventListener("click", function () {
+        // location.href =
+        //   "upwallet://applet?encryptAppId=45e88875d7f02c8e&toLink=https%3A%2F%2Fsq.95516.com%2Fsq%2Ftemplate%2F%3Fid%3D123&id=123";
+        location.href = `upwallet://html/sq.95516.com/sq/template/?id=123`
+      });
+    </script>
+  </body>
+</html>
